@@ -33,3 +33,15 @@ In this study we have used pitches and durations from files to get train notes a
 
 Post processing:
 After training deep learning models, we receive a sequence, that is composed of array of pitches or note number. Each note number represent a corresponding note name. A generator function has been developed that converts each such note number to corresponding name and add it to the stream of notes. 
+
+Autoencoders
+Autoencoders uses unsupervised learning techniques to learn from data, these networks consist of units of inputs and a data reconstruction layer also known as decoders that are fully connected to the hidden layer units [6]. In autoencoders the inputs are encoded to some representation and the decoded to generate information from learnt facts. This technique is also known as representation learning [13]. 
+ 
+Fig: Model summary of Autoencoders
+Decoder- it upscales the data or decompresses it to extract information.
+Encoder- inputs are passed to encoders also known as latent vector that converts input in the form of a representation.
+So basically, autoencoders are to be trained on data reconstruction. We impose a bottleneck on the network that encodes and decodes the data accordingly.
+ 
+Fig: Bottleneck in Autoencoders [14].
+
+
