@@ -41,8 +41,9 @@ Fig: Model summary of Autoencoders
 Decoder- it upscales the data or decompresses it to extract information.
 Encoder- inputs are passed to encoders also known as latent vector that converts input in the form of a representation.
 So basically, autoencoders are to be trained on data reconstruction. We impose a bottleneck on the network that encodes and decodes the data accordingly.
- ![image](https://github.com/user-attachments/assets/5c63d9ba-690c-4127-89e1-67be7360762c)
 
+![image](https://github.com/user-attachments/assets/8c99443a-34d2-49cf-b85d-201ee193e479)
 Fig: Bottleneck in Autoencoders [14].
+
 
 
